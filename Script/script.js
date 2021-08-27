@@ -1,6 +1,6 @@
 console.log("This is the Script");
 
-
+// This Function Converts the Text to Upper Case
 function ctuppercase() {
     // Getting the Text
     let texte = document.getElementById("text");
@@ -9,6 +9,7 @@ function ctuppercase() {
     texte.value = texto;
 }
 
+// This Function Converts the Text to Lower Case
 function ctlowercase() {
     // Getting the Text
     let texte = document.getElementById("text");
@@ -17,6 +18,7 @@ function ctlowercase() {
     texte.value = texto;
 }
 
+// This Function Removes Puctuation's from the Text
 function removepunc() {
     let texte = document.getElementById("text");
     let text = document.getElementById("text").value;
@@ -24,8 +26,24 @@ function removepunc() {
     texte.value = rmovedpunctxt;
 }
 
+// This Function Removes all Lines in the Text
+function removealines() {
+    let texte = document.getElementById("text");
+    let text = document.getElementById("text").value;
+    texte.value = text.split("\n");
+}
 
+// This Function Removes Extra Spaces in the Text
+function removeextraspac() {
+    let texte = document.getElementById("text");
+    let text = document.getElementById("text").value;
+    texte.value = text.replace(/\s+/g, " ");
+}
+
+
+// This Function Clear's the Text
 function cleartxt() {
     let texte = document.getElementById("text");
     texte.value = "";
 }
+
