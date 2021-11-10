@@ -6,3 +6,7 @@
 .operators button{
     margin-top: 10px; 
 }
+
+.card{
+    visibility: hidden;
+}

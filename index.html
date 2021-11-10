@@ -36,7 +36,7 @@
             </div>
         </div>
     </nav>
-
+    <div id="alert"></div>
     <!-- Page Content -->
     <div class="container my-3">
         <h1>Enter the text to analyze below</h1>
@@ -48,10 +48,17 @@
                 Lowercase</button>
             <button class="btn btn-primary" id="removepunc" onclick="removepunc()">Remove Punctuations</button>
             <button class="btn btn-primary" id="removepunc" onclick="removealines()">Remove All Lines</button>
-            <button class="btn btn-primary" id="removepunc" onclick="removeextraspac()">Remove Extra Spaces</button>
+            <button class="btn btn-primary" id="removepunc" onclick="removenumbers()">Remove All Numbers</button>
             <button class="btn btn-primary" id="cltext" onclick="cleartxt()">Clear Text</button>
         </div>
         <hr>
+        <div class="card" id="card1">
+            <h5 class="card-header" id="card-header1"></h5>
+            <div class="card-body">
+                <p class="card-text" id="card-text1"></p>
+                <button class="btn btn-primary" onclick="copy()">Copy</a>
+            </div>
+        </div>
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
