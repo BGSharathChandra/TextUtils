@@ -1,4 +1,4 @@
-console.log("This is the Script");
+console.log("Welcome to TextUtils.\nTO  CONTRIBUTE OR KNOW MORE ABOUT THIS PROJECT GO TO:https://github.com/BGSharathChandra/TextUtils-GUI");
 
 // This Function Converts the Text to Upper Case
 function ctuppercase() {
