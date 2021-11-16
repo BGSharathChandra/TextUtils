@@ -1,7 +1,9 @@
 <h1>Welcome to Text Utils</h1>
 
 
-<p>This is a collection of Website for working with text.This is a Code written in HTML,CSS and Javascript and Bootstrap where you have to Enter a Text and Perform Certain actions If you want to try out the Live Website got to this link <a href="https://bgsharathchandra.github.io/Textutils/">https://bgsharathchandra.github.io/Textutils/</a></p>
+<p>This is a collection of Website for working with text.This is a Code written in Pure HTML,CSS and Javascript where you have to Enter a Text and Perform Certain actions If you want to try out the Live Website got to this link <a href="https://bgsharathchandra.github.io/Textutils/">https://bgsharathchandra.github.io/Textutils/</a></p>
+
+<p>There is a Other Branch where you can get the Website where Bootstrap is used for the styling of the Website. To Visit go to the Link:<a href = "https://github.com/BGSharathChandra/TextUtils/tree/master">https://github.com/BGSharathChandra/TextUtils/tree/master</a></p>
 
 
 <h2>Features</h2>
@@ -10,7 +12,8 @@
 <li>2.To Convert Text to Lower Case</li>
 <li>3.Remove Punctuations</li>
 <li>4.Remove Spaces</li>
-<li>5.This Website is Responsive</li>
+<li>5.This Website is Responsive to some Extent</li>
+<li>6.This Website is Developed in Pure HTML,CSS and Javascript</li>
 </ul>
 
 
