@@ -1,12 +1,48 @@
 .container{
-    margin-top: 5%;
-    align-content: center;
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    flex-direction: column;
 }
 
-.operators button{
-    margin-top: 10px; 
+.operators{
+    margin: 2vh 3vw;
 }
+
+
+.heading{
+    margin: 2vh 3vw;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.textarea{
+    margin: 2vh 3vw;
+    width: 80vw;
+}
+
 
 .card{
     visibility: hidden;
+    margin: 2vh 3vw;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.card-header{
+    color: black;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding: 1vh 1vw;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: 1vh;
+}
+
+.card-text{
+    margin-bottom: 1vh;
+    margin: 1vh 1vw;
+}
+.card button{
+    margin: 1vh 1vw;
 }

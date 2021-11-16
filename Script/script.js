@@ -36,7 +36,7 @@ function changetextCardBody(util, converted, text) {
 function ctuppercase() {
 
     // Getting the Text and Converting it to Upper Case
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     let texto = text.toUpperCase();
     
     changetextCardBody("UpperCase", "Converted", texto);
@@ -46,7 +46,7 @@ function ctuppercase() {
 // ctlowercase Full Form:- converttoLowerCase
 function ctlowercase() {
     // Getting the Text
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     let texto = text.toLowerCase();
     changetextCardBody("LowerCase", "Converted", texto);
 
@@ -55,7 +55,7 @@ function ctlowercase() {
 // This Function Removes Puctuation's from the Text
 // removepunc Full Form:- removepunctuation  
 function removepunc() {
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     rmovedpunctxt = text.replace(/[[.,\/#!$%\^&\*;:{}=\-_`~('")]/g, "")
 
     changetextCardBody("Punctuation", "Removed", rmovedpunctxt);
@@ -64,7 +64,7 @@ function removepunc() {
 // This Function Removes all Lines in the Text
 //removealines Full Form:- removeAllLines
 function removealines() { 
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     texto = text.split("\n");
 
     changetextCardBody("Lines", "Removed", texto);
@@ -73,14 +73,14 @@ function removealines() {
 // Function to Remove Numbers
 // removenumbers Full Form:- removenumbers
 function removenumbers() {
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     texto = text.replace(/[0-9]/g, "");
     changetextCardBody("Numbers", "Removed", texto);
 }
 
 // This Function Removes Extra Spaces in the Text
 function removeextraspac() {
-    let text = document.getElementById("text").value;
+    let text = document.getElementById("textarea").value;
     texto = text.replace(/\s/g, " ");
 
     changetextCardBody("Extra Spaces", "Removed", texto);
@@ -89,7 +89,7 @@ function removeextraspac() {
 
 // This Function Clear's the Text
 function cleartxt() {
-    let texte = document.getElementById("text");
+    let texte = document.getElementById("textarea");
     texte.value = "";
 }
 
